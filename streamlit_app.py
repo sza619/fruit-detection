@@ -5,10 +5,10 @@ import streamlit as st
 import numpy as np
 
 # Set up the Streamlit app
-st.set_page_config(page_title="Image Classification Model", layout="centered")
+st.set_page_config(page_title="Fridge Insight", layout="centered")
 
 # Header and description
-st.title('Image Classification Model')
+st.title('Fridge Insight')
 st.write("Upload an image of a fruit or vegetable, and the model will classify it.")
 
 # Load the model
