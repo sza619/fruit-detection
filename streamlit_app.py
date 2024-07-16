@@ -12,7 +12,7 @@ st.title('Image Classification Model')
 st.write("Upload an image of a fruit or vegetable, and the model will classify it.")
 
 # Load the model
-model = load_model('C:\\Users\\NOOR\\Desktop\\project\\Image_classify.keras')
+model = load_model('./Image_classify.keras')
 
 # List of categories
 data_cat = ['apple', 'banana', 'beetroot', 'bell pepper', 'cabbage', 'capsicum', 'carrot', 'cauliflower', 
